@@ -62,6 +62,9 @@ gulp build dist --prod
 MIT
 ![image alt text](https://drive.google.com/uc?export=view&id=1Y9gZ1NRCk8nJbrQo1Bxfl0cMulQ-UeF7) 
 
+## Our Team
+![image alt text](https://drive.google.com/uc?export=view&id=1UCjVNO2cejsUX4PPwPXensqSTJf2kK6P)
+
 ## References and Citations
 Singapore Heart Foundation. (n.d.). Heart disease statistics. Singapore Heart Foundation. Retrieved April 13, 2023, from https://www.myheart.org.sg/health/heart-disease-statistics/ 
 
