@@ -40,7 +40,7 @@ From here we moved to some basic EDA and Data Cleaning. Visualising the correlat
 
 ![Heatmap](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/iniCorr.png)
 
-This proves that cardiovascular disease is a compound issue with many factors.
+#### This proves that cardiovascular disease is a compound issue with many factors.
 
 From here, we moved on to cleaning the data to better represent some of these correlations. The steps taken were:
 
@@ -50,7 +50,7 @@ From here, we moved on to cleaning the data to better represent some of these co
 
 ![Blood_Pressure](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/bloodpres.jpg)
 
-From here, we could conduct further analysis. 
+#### From here, we could conduct further analysis: 
 
 First, by plotting out the categorical variable of "cardio" in the form of a pie-chart. The result showed that the presence of cardiovascular disease was 50.6% of the dataset and the absence was 49.4% of the dataset which reduces classification bias.
 
@@ -62,7 +62,7 @@ Third, by comparing the new data's correlation with the old through the use of t
 
 This highlights the presence of Systolic and Diastolic blood pressure playing an important role in determining if an individual would have a cardiac episode or not. However, neither of the two variables guaranteed it. 
 
-Therefore, the need for a model which can take into account these various factors in tandem to be able to create a prediction for an individual.
+#### Therefore, the need for a model which can take into account these various factors in tandem to be able to create a prediction for an individual.
 ## Methodology
 We evaluated 5 models - Logistic Regression, Classification Tree, Random Forest, K-Nearest Neighbour and Neural Network.
 
