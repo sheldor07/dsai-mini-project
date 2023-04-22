@@ -32,7 +32,7 @@ The data is organised into multiple columns representing various factors. These 
 - Physical activity | Subjective Feature | active | binary |
 - Presence or absence of cardiovascular disease | Target Variable | cardio | binary |
 
-After importing the data, we first cleaned it by removing all the duplicates. This removed 24 values.
+After importing the data, we first removed all the duplicates by comparing ID values. This removed 24 values.
 
 After that, we modified the gender column to represent male and female as well as the age column to represent age in terms of years instead of days.
 
