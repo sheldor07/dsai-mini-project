@@ -6,7 +6,7 @@ Heart disease deaths have been rising in Singapore (Singapore Heart Foundation, 
 
 Our model finds its main uses in 2 applications. 
 
-First, for more targetted identification of candidates for health screening. Our model can be integrated into HealthHub, a mobile application by the government, to allow users to do a self-assessment for their Cardiovascular Diseasee risk. Users who have been found to be at high risk of Cardiovascular Disease can then be recommended to go for health screening for further follow-up actions to be taken. The data for this can be updated into HealthHub through the integration of Health applications that are already available and widely used for regular monitoring on both iOS and Android platforms.
+First, for more targeted identification of candidates for health screening. Our model can be integrated into HealthHub, a mobile application by the government, to allow users to do a self-assessment for their Cardiovascular Diseasee risk. Users who have been found to be at high risk of Cardiovascular Disease can then be recommended to go for health screening for further follow-up actions to be taken. The data for this can be updated into HealthHub through the integration of Health applications that are already available and widely used for regular monitoring on both iOS and Android platforms.
 
 Second, for medical triaging at healthcare institutions so that patients who are at higher risk of cardiovascular disease complications can be attended to faster. This could come in the form of earlier medical appointment slots or priority queues thereby reducing the chances of a severe event from occurring.
 
