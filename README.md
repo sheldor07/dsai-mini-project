@@ -38,7 +38,7 @@ After that, we modified the gender column to represent male and female as well a
 
 From here we moved to some basic EDA and Data Cleaning. Visualising the correlation between variables in the form of a heatmap gave us this:
 
-![Heatmap]https://raw.githubusercontent.com/sheldor07/dsai-mini-project/blob/main/readmefiles/iniCorr.jpg
+![Heatmap](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/iniCorr.jpg)
 
 This proves that cardiovascular disease is a compound issue with many factors.
 
@@ -48,7 +48,7 @@ From here, we moved on to cleaning the data to better represent some of these co
 
 2) Adjusting for blood pressure, we compared blood pressure against the world average and clinically understoof ranges of optimality for systolic and diastolic blood pressure. After that, through the verification using both box and violin plots, we were able to identify 1479 values that were considered to be outliers which were also removed.
 
-![Blood_Pressure]https://raw.githubusercontent.com/sheldor07/dsai-mini-project/blob/main/readmefiles/bloodpres.jpg
+![Blood_Pressure](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/bloodpres.jpg)
 
 From here, we could conduct further analysis. 
 
@@ -58,7 +58,7 @@ Second, by analysing the new dataset, various statistics such as the mean age of
 
 Third, by comparing the new data's correlation with the old through the use of the heatmap, we get this:
 
-![Heatmap]https://raw.githubusercontent.com/sheldor07/dsai-mini-project/blob/main/readmefiles/finCorr.jpg
+![Heatmap](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/finCorr.jpg)
 
 This highlights the presence of Systolic and Diastolic blood pressure playing an important role in determining if an individual would have a cardiac episode or not. However, neither of the two variables guaranteed it. 
 
