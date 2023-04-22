@@ -13,9 +13,58 @@ Second, for medical triaging at healthcare institutions so that patients who are
 ![image alt text](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/applications.gif)
 ##### Video
 ## Data Processing
+Before processing the data, it should be noted that there are a couple different types of inputs:
+- Objective: Factual information;
+- Examination: Results of medical examination;
+- Subjective: Information given by the patient.
 
+The data is organised into multiple columns representing various factors. These factors and their datatypes are:
+- Age | Objective Feature | age | int (days)
+- Height | Objective Feature | height | int (cm) |
+- Weight | Objective Feature | weight | float (kg) |
+- Gender | Objective Feature | gender | categorical code |
+- Systolic blood pressure | Examination Feature | ap_hi | int |
+- Diastolic blood pressure | Examination Feature | ap_lo | int |
+- Cholesterol | Examination Feature | cholesterol | 1: normal, 2: above normal, 3: well above normal |
+- Glucose | Examination Feature | gluc | 1: normal, 2: above normal, 3: well above normal |
+- Smoking | Subjective Feature | smoke | binary |
+- Alcohol intake | Subjective Feature | alco | binary |
+- Physical activity | Subjective Feature | active | binary |
+- Presence or absence of cardiovascular disease | Target Variable | cardio | binary |
+
+After importing the data, we first cleaned it by removing all the duplicates. This removed 24 values.
+
+After that, we modified the gender column to represent male and female as well as the age column to represent age in terms of years instead of days.
+
+From here we moved to some basic EDA and Data Cleaning. Visualising the correlation between variables in the form of a heatmap gave us this:
+
+![Heatmap]https://raw.githubusercontent.com/sheldor07/dsai-mini-project/blob/main/readmefiles/iniCorr.jpg
+
+This proves that cardiovascular disease is a compound issue with many factors.
+
+From here, we moved on to cleaning the data to better represent some of these correlations. The steps taken were:
+
+1) Adjusting for outliers of the height and weight variables by comparing the variables to each other and to the age of the individual. Further justification through violinplots revealed that there are 322 outliers which were removed.
+
+2) Adjusting for blood pressure, we compared blood pressure against the world average and clinically understoof ranges of optimality for systolic and diastolic blood pressure. After that, through the verification using both box and violin plots, we were able to identify 1479 values that were considered to be outliers which were also removed.
+
+![Blood_Pressure]https://raw.githubusercontent.com/sheldor07/dsai-mini-project/blob/main/readmefiles/bloodpres.jpg
+
+From here, we could conduct further analysis. 
+
+First, by plotting out the categorical variable of "cardio" in the form of a pie-chart. The result showed that the presence of cardiovascular disease was 50.6% of the dataset and the absence was 49.4% of the dataset which reduces classification bias.
+
+Second, by analysing the new dataset, various statistics such as the mean age of patients, gender ratio, mean height, mean weight etc. were able to be derived. Interestingly, these values are reflective of normal everyday figures of large population groups.
+
+Third, by comparing the new data's correlation with the old through the use of the heatmap, we get this:
+
+![Heatmap]https://raw.githubusercontent.com/sheldor07/dsai-mini-project/blob/main/readmefiles/finCorr.jpg
+
+This highlights the presence of Systolic and Diastolic blood pressure playing an important role in determining if an individual would have a cardiac episode or not. However, neither of the two variables guaranteed it. 
+
+Therefore, the need for a model which can take into account these various factors in tandem to be able to create a prediction for an individual.
 ## Methodology
-We evaluated 5 models - Logistic Regression, K-Nearest Neighbour, Classification Tree, Neural Network, and Random Forest.
+We evaluated 5 models - Logistic Regression, Classification Tree, Random Forest, K-Nearest Neighbour and Neural Network.
 
 ### 1. Logistic Regression (Highest accuracy: 71.9%)
 A supervised machine learning model
