@@ -38,7 +38,7 @@ After that, we modified the gender column to represent male and female as well a
 
 From here we moved to some basic EDA and Data Cleaning. Visualising the correlation between variables in the form of a heatmap gave us this:
 
-![Heatmap](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/iniCorr.jpg)
+![Heatmap](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/iniCorr.png)
 
 This proves that cardiovascular disease is a compound issue with many factors.
 
@@ -58,7 +58,7 @@ Second, by analysing the new dataset, various statistics such as the mean age of
 
 Third, by comparing the new data's correlation with the old through the use of the heatmap, we get this:
 
-![Heatmap](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/finCorr.jpg)
+![Heatmap](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/finCorr.png)
 
 This highlights the presence of Systolic and Diastolic blood pressure playing an important role in determining if an individual would have a cardiac episode or not. However, neither of the two variables guaranteed it. 
 
