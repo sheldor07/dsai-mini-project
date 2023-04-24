@@ -12,6 +12,7 @@ Second, for medical triaging at healthcare institutions so that patients who are
 
 ![image alt text](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/applications.gif)
 ##### Video
+Our video can be accessed here: https://youtu.be/Wj-rIJu2epg
 ## Data Processing
 Before processing the data, it should be noted that there are a couple different types of inputs:
 - Objective: Factual information;
